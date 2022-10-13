@@ -1,4 +1,4 @@
 /**
  * Contains class basic flower store classes tests.
  */
-package FlowerStore.src.test.java.flower.store;
+package flowerStore.src.test.java.flower.store;
