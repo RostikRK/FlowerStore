@@ -1,7 +1,7 @@
-package Lab5.src.test.java.flower_store;
+package FlowerStore.src.test.java.flower.store;
 
-import Lab5.src.main.java.flower.store.Flower;
-import Lab5.src.main.java.flower.store.FlowerColor;
+import FlowerStore.src.main.java.flower.store.Flower;
+import FlowerStore.src.main.java.flower.store.FlowerColor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
