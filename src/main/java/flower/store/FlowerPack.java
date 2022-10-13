@@ -1,4 +1,4 @@
-package flowerStore.src.main.java.flower.store;
+package flowerstore.src.main.java.flower.store;
 
 public class FlowerPack {
     private Flower flower;
