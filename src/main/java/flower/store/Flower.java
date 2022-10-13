@@ -1,12 +1,14 @@
 package flowerstore.src.main.java.flower.store;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 
 
 @Setter
-public final class Flower {
+@AllArgsConstructor
+public class Flower {
     /**
      * sepal length Variable .
      */
@@ -26,6 +28,8 @@ public final class Flower {
      */
     @Getter
     private FlowerType flowerType;
+
+
     /**
      * getter for string .
      */
