@@ -6,15 +6,29 @@ import lombok.Setter;
 
 
 @Setter
-public class Flower {
+public final class Flower {
+    /**
+     * sepal length Variable .
+     */
     @Getter
     private double sepalLength;
+    /**
+     * color Variable .
+     */
     private FlowerColor color;
+    /**
+     * price Variable .
+     */
     @Getter
     private double price;
+    /**
+     * FlowerType Variable .
+     */
     @Getter
     private FlowerType flowerType;
-
+    /**
+     * getter for string .
+     */
     public String getColor() {
         return color.toString();
     }
