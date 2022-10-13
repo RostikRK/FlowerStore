@@ -1,4 +1,4 @@
-package Lab5.src.main.java.flower_store;
+package Lab5.src.main.java.flower.store;
 
 public enum FlowerColor {
     RED("#FF0000"), BLUE("#0000FF");

@@ -1,4 +1,4 @@
-package Lab5.src.main.java.flower_store;
+package Lab5.src.main.java.flower.store;
 
 public class FlowerPack {
     private Flower flower;
