@@ -9,9 +9,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Flower {
-    public Flower() {
-
-    }
     /**
      * sepal length Variable .
      */
@@ -33,7 +30,9 @@ public class Flower {
     @Getter
     private FlowerType flowerType;
 
+    public Flower() {
 
+    }
     /**
      * getter for string .
      */
