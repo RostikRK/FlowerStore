@@ -10,7 +10,9 @@ public enum FlowerColor {
      */
     private final String stringRepresentation;
 
-    FlowerColor(final String stringRepresentation) {this.stringRepresentation = stringRepresentation;}
+    FlowerColor(final String stringRepresentation) {
+        this.stringRepresentation = stringRepresentation;
+    }
 
     @Override
     public String toString() {
