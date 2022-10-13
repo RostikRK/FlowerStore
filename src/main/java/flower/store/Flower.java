@@ -9,6 +9,9 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Flower {
+    public Flower() {
+
+    }
     /**
      * sepal length Variable .
      */
@@ -22,6 +25,7 @@ public class Flower {
      * price Variable .
      */
     @Getter
+    @Setter
     private double price;
     /**
      * FlowerType Variable .
