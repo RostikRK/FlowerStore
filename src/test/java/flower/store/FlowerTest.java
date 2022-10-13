@@ -9,29 +9,29 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public final class FlowerTest {
     /**
-     * integer Variable I
+     * Flower Variable .
      */
     private Flower flower;
 
     /**
-     * init test
+     * init test.
      */
     @BeforeEach
     public void init() {
         flower = new Flower();
     }
     /**
-     * price test
+     * price test.
      */
     @Test
     public void testPrice() {
-        final int PRICE_CONS = 20;
-        flower.setPrice(PRICE_CONS);
-        assertEquals(PRICE_CONS, flower.getPrice());
+        final int price = 20;
+        flower.setPrice(price);
+        assertEquals(price, flower.getPrice());
     }
 
     /**
-     * color test
+     * color test.
      */
     @Test
     public void testColor() {
