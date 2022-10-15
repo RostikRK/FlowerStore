@@ -1,6 +1,10 @@
 package flowerstore.src.test.java.flower.store;
 
-import flowerstore.src.main.java.flower.store.*;
+
+import flowerstore.src.main.java.flower.store.Flower;
+import flowerstore.src.main.java.flower.store.FlowerBucket;
+import flowerstore.src.main.java.flower.store.FlowerPack;
+import flowerstore.src.main.java.flower.store.FlowerType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
