@@ -1,9 +1,6 @@
 package flowerstore.src.test.java.flower.store;
 
-import flowerstore.src.main.java.flower.store.Flower;
-import flowerstore.src.main.java.flower.store.FlowerBucket;
-import flowerstore.src.main.java.flower.store.FlowerPack;
-import flowerstore.src.main.java.flower.store.Rose;
+import flowerstore.src.main.java.flower.store.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
@@ -26,7 +23,7 @@ public class FlowerBucketTest {
     public void testPrice() {
         int price = RANDOM_GENERATOR.nextInt(MAX_PRICE);
         int quantity = RANDOM_GENERATOR.nextInt(MAX_QUANTITY);
-        Flower flower = new Rose();
+        Flower flower = new Flower(FlowerType.ROSE);
         flower.setPrice(price);
         FlowerPack flowerPack = new FlowerPack(flower, quantity);
         flowerBucket.add(flowerPack);

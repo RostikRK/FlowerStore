@@ -18,6 +18,8 @@ public class FlowerPack {
     @Setter
     private int quantity;
 
+    public FlowerPack() {}
+
     public double getPrice() {
         return flower.getPrice() * quantity;
     }

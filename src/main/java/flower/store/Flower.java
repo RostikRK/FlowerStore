@@ -33,6 +33,10 @@ public class Flower {
     public Flower() {
 
     }
+
+    public Flower(FlowerType flowerType) {
+        this.flowerType = flowerType;
+    }
     /**
      * getter for string .
      */
