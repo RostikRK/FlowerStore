@@ -6,7 +6,7 @@ import lombok.Setter;
 import java.util.ArrayList;
 
 @Setter
-public class FlowerBucket {
+public class FlowerBucket extends Item{
     @Getter
     @Setter
     private ArrayList<FlowerPack> bucket;

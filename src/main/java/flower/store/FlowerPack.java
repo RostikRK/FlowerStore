@@ -5,7 +5,7 @@ import lombok.Setter;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class FlowerPack {
+public class FlowerPack extends Item {
     /**
      * Flower Variable .
      */
