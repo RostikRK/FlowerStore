@@ -4,7 +4,6 @@ import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 
 @Getter
 public class Store {
@@ -35,8 +34,8 @@ public class Store {
     public ArrayList searchByItemAndPrice(int min, int max, ItemType category) {
         ArrayList res = new ArrayList();
         ArrayList<Item> items = categories.get(category);
-        for(Item item : items){
-            if(item.getPrice() < max & item.getPrice() > min){
+        for (Item item : items) {
+            if (item.getPrice() < max & item.getPrice() > min) {
                 res.add(item);
             }
         }
